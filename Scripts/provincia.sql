@@ -6,8 +6,7 @@ CREATE TABLE dbo.provincia
     pv_descripcion varchar(30) NOT NULL,
     pv_region_ope  char(3)     NULL,
     pv_pais        int    NOT NULL,
-    pv_estado      varchar(3)      NULL,
-       char(2)     NULL
+    pv_estado      varchar(3)      NULL
 )
 LOCK ALLPAGES
 go

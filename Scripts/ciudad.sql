@@ -6,7 +6,6 @@ CREATE TABLE dbo.ciudad
     ci_descripcion varchar(50) NOT NULL,
     ci_estado      varchar(3)      NULL,
     ci_provincia   smallint    NULL,
-
     ci_pais        smallint    NULL
 )
 LOCK ALLPAGES
