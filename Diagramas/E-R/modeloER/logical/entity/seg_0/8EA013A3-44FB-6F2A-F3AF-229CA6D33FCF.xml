@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8EA013A3-44FB-6F2A-F3AF-229CA6D33FCF" name="Articulo_Unidad">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 19:31:10 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Unidad" id="DBFFD7FB-9217-E7E2-4906-1B694187E3BF">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 19:31:27 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Descripcion" id="6D0DCFCB-B80B-6B8A-8A53-A825079E440C">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 19:31:33 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Estado" id="126593B2-1A7C-CC9F-90F6-D69565A0A052">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 19:40:49 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+</attributes>
+</Entity>

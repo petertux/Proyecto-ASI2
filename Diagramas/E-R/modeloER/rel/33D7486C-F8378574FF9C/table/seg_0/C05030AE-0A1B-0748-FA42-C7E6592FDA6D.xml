@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C05030AE-0A1B-0748-FA42-C7E6592FDA6D" name="Solicitud_Cita">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 15:48:43 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Solicitud" id="1FEE8768-A978-00DD-F46D-4C1B862A36D0">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 16:13:10 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Hora" id="71EB9638-4491-D008-5BEB-296C30479A0D">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 16:13:10 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombres" id="6DC2B9B8-ECE5-DB43-AB26-A7940AC90DDE">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 16:13:10 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellidos" id="3622768F-CCD8-6CE2-0479-4BC74AB1B530">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 16:13:10 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="79716088-B709-7014-6201-DBB0299252D2">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 16:13:10 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion" id="7D836D66-2A7F-BA32-4B27-05DED03F5C17">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 16:13:10 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="F1F8CB85-4DF2-2697-54DE-E9F48205FEB7">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 16:13:10 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42657175-9D0A-DD2C-9EC0-316CE6BF5AA2" name="Solicitud_Cita_PK">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 15:57:37 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FEE8768-A978-00DD-F46D-4C1B862A36D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

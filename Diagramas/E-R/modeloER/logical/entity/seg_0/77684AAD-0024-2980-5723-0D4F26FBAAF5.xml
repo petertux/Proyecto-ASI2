@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="77684AAD-0024-2980-5723-0D4F26FBAAF5" name="Articulo_Precio">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 18:08:47 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Articulo" id="339F1B76-D80D-525E-4CB2-8D2AFA56F58A">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 18:09:03 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Precio" id="A3D807ED-FD90-2E7D-C184-E5C39BA86123">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 18:09:16 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Fecha_Desde" id="50E7C60C-757F-3532-4416-35AB8DBCB3F1">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 18:09:24 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Fecha_Hasta" id="AF4AB4BE-84C8-E50B-231C-D2C307BB7F53">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 18:09:38 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+</attributes>
+</Entity>

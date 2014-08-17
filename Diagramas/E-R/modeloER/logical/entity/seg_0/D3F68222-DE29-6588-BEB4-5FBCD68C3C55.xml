@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D3F68222-DE29-6588-BEB4-5FBCD68C3C55" name="Canal">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 22:21:50 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Canal" id="BC84D24B-05C6-1D1B-CCD1-D363F3EB88D1">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 22:22:01 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<use>0</use>
+</Attribute>
+<Attribute name="Descripcion" id="98C3E034-DAA8-FA14-D31E-043834945BF6">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 22:22:05 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<use>0</use>
+</Attribute>
+<Attribute name="Estado" id="04603E2E-BC5F-1911-2B89-96A5FD2B2972">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 22:22:09 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<use>0</use>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C45B6933-B4BF-6DD7-D9AD-D14A29125CED" name="Canal PK">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 22:22:18 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BC84D24B-05C6-1D1B-CCD1-D363F3EB88D1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

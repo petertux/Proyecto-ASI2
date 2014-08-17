@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AEE48936-B77D-FB2B-C9B6-60DAE0B2A876" name="Proveedor">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 20:15:58 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Proveedor" id="EDF8D576-7C87-8B60-794A-8F796C778C4B">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 20:17:32 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Nombre" id="83A1B53A-B249-662E-190C-2C3C4F4F0AC2">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 20:17:38 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Direccion" id="D79FAE02-8C1A-856A-607C-66558A99E212">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 20:17:41 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Telefono" id="6E370453-1646-D9A7-D5B7-12CFAD2D42A7">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 20:17:44 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Estado" id="693D9DD9-A4DB-9104-6473-724A27BF90D6">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 20:17:47 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Id_Pais" id="1A6A1A36-33F3-88DE-A961-25D909644074">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 20:52:42 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Id_Pais1" id="2D6F331B-B704-4DCF-ABAA-AE6498B64EF1">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 20:53:33 UTC</createdTime>
+<generatorID>915B7FA8-23F0-AD04-F6E0-6F9443132F3B</generatorID>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5FCCBB40-DED1-CCAF-D45E-FB1F81FFF37D</referedAttribute>
+<use>0</use>
+</Attribute>
+</attributes>
+</Entity>

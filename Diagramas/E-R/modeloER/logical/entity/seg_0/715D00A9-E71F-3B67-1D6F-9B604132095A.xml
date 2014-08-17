@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="715D00A9-E71F-3B67-1D6F-9B604132095A" name="Bodega">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 18:11:59 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Bodega" id="8C8EF785-83EC-4850-0340-BB7225FCE9EE">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 18:12:06 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<use>0</use>
+</Attribute>
+<Attribute name="Descripcion" id="F5BF778B-EE38-7E98-BB3F-D1C59B857233">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 18:12:12 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Estado" id="3F070CB1-FD49-6848-7578-1960F0A1ABBA">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 18:13:32 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3F7BE489-DC5E-8624-3346-166ABE6B559A" name="Bodega PK">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 18:12:36 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8C8EF785-83EC-4850-0340-BB7225FCE9EE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

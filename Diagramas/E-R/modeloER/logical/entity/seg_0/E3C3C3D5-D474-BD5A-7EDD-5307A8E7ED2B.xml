@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E3C3C3D5-D474-BD5A-7EDD-5307A8E7ED2B" name="Ubicacion">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 18:12:50 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Ubicacion" id="831A43BF-71EF-4B46-54FD-CD2987483AA2">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 18:12:59 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Descripcion" id="212E9159-B8B3-FE86-BC22-60F3DE0B96AD">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 18:13:04 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Bodega" id="851239BF-CFBA-A10C-30EA-E70E6C12FA4E">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 18:13:10 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Estado" id="6A861C41-106A-15B4-90C3-774B583578B9">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 18:13:42 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Id_Bodega" id="583D25B4-5249-6D36-EBE6-2CE2A1685705">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 18:02:50 UTC</createdTime>
+<generatorID>EABD0F46-6A49-DECE-0B28-D77348E2F572</generatorID>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8C8EF785-83EC-4850-0340-BB7225FCE9EE</referedAttribute>
+<use>0</use>
+</Attribute>
+</attributes>
+</Entity>

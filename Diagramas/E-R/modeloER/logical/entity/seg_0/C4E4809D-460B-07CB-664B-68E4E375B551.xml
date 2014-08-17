@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C4E4809D-460B-07CB-664B-68E4E375B551" name="Articulo_Existencia">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 18:10:17 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Articulo" id="BBBC98CE-6714-E4DF-F7CA-2676F15AE443">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 18:10:27 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Cant_Disponible" id="002524D1-197C-C77E-F0F1-B540E8D09F5B">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 18:10:34 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Id_Ubicacion" id="6B930E56-CA04-69A2-BB04-A6909B170963">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 18:16:02 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Id_Articulo1" id="67036BC8-1B7C-4FB4-09ED-EA584C1B17C9">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 17:59:40 UTC</createdTime>
+<generatorID>81FEA7EA-074D-DA8A-8988-315E531C3B01</generatorID>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8733010C-9C93-67E8-D2BF-2DD362BDDD55</referedAttribute>
+<use>0</use>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3E9A63C2-B9A9-66FF-0069-E4C56BF4415F" name="Tipo_Documento">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 19:28:57 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Tipo_Documento" id="B8ADC381-185B-DFCE-6D05-03FAF187A225">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 19:29:21 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<use>0</use>
+</Attribute>
+<Attribute name="Descripcion" id="81389227-11CA-584E-E74A-36F8C217994E">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 19:29:29 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Estado" id="7F8A2AAE-B237-2C2E-A40A-AEB3D895B8A4">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 19:29:38 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CA15A1AB-B33B-0451-D59A-3B6CFD710B66" name="Tipo_Documento PK">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 21:02:26 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B8ADC381-185B-DFCE-6D05-03FAF187A225</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

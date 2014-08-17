@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F8EEE87A-E03F-3D3D-B284-0DA348D200B9" name="Cita_Estado">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 17:07:02 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Estado" id="82ECA9A2-C266-5840-2203-8DFE28FA60C4">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 17:07:12 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<use>0</use>
+</Attribute>
+<Attribute name="Descripcion" id="4A9F9D8D-2F03-26C9-18CF-07EA8EF429FD">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 17:07:18 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="887EAD81-FA29-D1F4-14C3-14112210C4BC" name="Estado_Cita PK">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 17:07:36 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>82ECA9A2-C266-5840-2203-8DFE28FA60C4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

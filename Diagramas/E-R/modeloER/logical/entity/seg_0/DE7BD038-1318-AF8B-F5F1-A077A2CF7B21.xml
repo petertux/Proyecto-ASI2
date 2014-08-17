@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DE7BD038-1318-AF8B-F5F1-A077A2CF7B21" name="Articulo">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 18:05:46 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Articulo" id="8733010C-9C93-67E8-D2BF-2DD362BDDD55">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 18:05:53 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<use>0</use>
+</Attribute>
+<Attribute name="Descripcion" id="75C175EF-124F-35E5-319C-C433E3B8A80B">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 18:06:04 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Min_Stock" id="30F0C615-2C39-C172-ECCB-61193009A11C">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 18:06:59 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Estado" id="E1EF3433-50E7-3944-4068-F1D80F02D87A">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 18:07:15 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Id_Categoria" id="57E649C0-F1E8-43A0-6BF3-D0612261A36C">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 18:28:04 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Id_Unidad" id="16979822-EF08-1959-E963-4BAEBF4790FC">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 18:28:16 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Fecha_Creacion" id="9EA9097F-4EFA-798C-49F1-4D3616DFC886">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 20:52:02 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Usuario_Crea" id="842FD9E2-5F84-2D01-F04D-72DE2184F48E">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 20:52:11 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Id_Categoria1" id="1DC95953-3AF7-7E28-BC7C-DCC0716F3DDF">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 17:58:33 UTC</createdTime>
+<generatorID>03A89EFC-F746-B030-0BFC-F24EBD43DE88</generatorID>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>93F22EA7-2AE9-9057-72C2-485B46F01553</referedAttribute>
+<use>0</use>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="26BAC5D1-B96D-37DF-2082-CE9B3BE1ABDE" name="Articulo PK">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 18:06:03 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8733010C-9C93-67E8-D2BF-2DD362BDDD55</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

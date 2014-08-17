@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="890163B0-9014-D15D-B57E-7A3114378D15" name="Conteo_Inventario_Fisico">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 16:41:04 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Conteo" id="22D13256-5653-6F27-B08D-96382B33A505">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 16:41:17 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<use>0</use>
+</Attribute>
+<Attribute name="Fecha_Creacion" id="73AF7C57-0F93-8808-0507-66B4C23F9302">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 16:41:21 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Usuario_Crea" id="19EF4849-4B32-E9FB-2E54-62C6DE522419">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 16:41:30 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Id_Ubicacion" id="C965D683-825D-97FB-25E1-50E6D0E3BB5A">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 16:41:44 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="268B2257-FA3D-85FA-D821-F57489065FA5" name="Conteo_Inventario_Fisico PK">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 16:50:17 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>22D13256-5653-6F27-B08D-96382B33A505</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

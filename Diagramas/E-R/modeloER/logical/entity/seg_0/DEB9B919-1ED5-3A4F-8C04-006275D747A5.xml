@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DEB9B919-1ED5-3A4F-8C04-006275D747A5" name="Factura_Detalle">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 16:25:18 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Factura" id="0C4DF296-D9AA-3B85-B327-8A70F965D1B4">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 16:32:09 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Medidas" id="6F684854-D57E-5BF9-655C-2C282FE4D44C">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 16:32:14 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Sentido" id="87BB16BC-D1A5-9AF0-5F26-401F6AECD869">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 16:32:38 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Cubres" id="FAF3213B-05A8-2CD7-A326-E06858A635B2">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 16:32:42 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Id_Articulo" id="63EADA25-C024-C238-8F4F-091B097EA550">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 16:33:10 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Cantidad" id="25CA0309-DBF5-DBAA-9A9C-481821B1DCDA">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 16:33:17 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Precio" id="E589F54A-6B84-A44C-66C2-0B5EF5410D71">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 16:33:34 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Total" id="3137F704-72E6-4476-01F2-07E42ECC1CF3">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 16:33:37 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Id_Factura1" id="C0E36DE5-CCF1-230C-E990-79E0C37ACEF3">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 16:34:31 UTC</createdTime>
+<generatorID>C843C0A1-46CD-1137-5615-CAA1FDD0EE6F</generatorID>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E345F1CE-7119-F220-DCC0-F012F71F5E50</referedAttribute>
+<use>0</use>
+</Attribute>
+<Attribute name="Id_Articulo1" id="A542191E-2FA9-7FB2-2464-BAA301D36A0F">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 16:34:52 UTC</createdTime>
+<generatorID>A7BE0164-30C1-9E2F-4257-C4D2CE0F9B94</generatorID>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8733010C-9C93-67E8-D2BF-2DD362BDDD55</referedAttribute>
+<use>0</use>
+</Attribute>
+</attributes>
+</Entity>

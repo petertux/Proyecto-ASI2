@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FAE95BE9-9F40-933A-B138-53E38608D60E" name="Sucursal">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 21:12:13 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Sucursal" id="EB8708A8-ED73-9EA1-14A6-B306750EA512">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 21:12:24 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<use>0</use>
+</Attribute>
+<Attribute name="Descripcion" id="382B39BF-395F-6DA1-4611-A17B314B7F25">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 21:12:30 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Direccion" id="D3A8A8E3-ECDF-81DC-5790-388ED23E4CB5">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 21:15:17 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Pais" id="83F40C30-669F-EE83-76DB-7F5B3E4213DB">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 21:15:22 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Estado" id="A8B0AA4E-48D9-9BCA-7B23-95827132ADBC">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 21:15:24 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Nit" id="DF8BB399-5149-B370-B023-74908613C49F">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 21:16:41 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Telefono" id="29AA1F82-3001-A734-6727-638946E117F3">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 21:16:51 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Email" id="5DDE3DF2-DDA7-764B-663E-C8DBE218EC0C">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 21:17:23 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Id_Pais" id="669880F1-4E01-3CB9-5193-88B79D7C2F5C">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 21:18:36 UTC</createdTime>
+<generatorID>A596B582-5CDB-B24E-A2B1-DB7588AC062B</generatorID>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5FCCBB40-DED1-CCAF-D45E-FB1F81FFF37D</referedAttribute>
+<use>0</use>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="69E9226F-8C85-B4B9-37BF-9E6ACA33D29D" name="Sucursal PK">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 21:15:15 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EB8708A8-ED73-9EA1-14A6-B306750EA512</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="59139872-2169-DFC6-B412-EBA34DF9E5CF" name="Tipo_Orden_Cortina">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 16:22:31 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Orden_Cortina" id="B8B9743E-8AAC-63C1-56A0-A31E638E566E">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 16:22:55 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<use>0</use>
+</Attribute>
+<Attribute name="Descripcion" id="AC566514-AE55-1911-0F82-98073740676B">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 16:23:07 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Estado" id="0BA33B53-1534-5A12-D5E3-320FF16E1755">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 16:23:11 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D91DA4D2-0997-6430-5A32-F0E1017419C8" name="Tipo_Orden_Cortina PK">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 16:23:06 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B8B9743E-8AAC-63C1-56A0-A31E638E566E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

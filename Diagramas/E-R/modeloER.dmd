@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modeloER" id="B20F870C-7B64-AC3F-E9F3-55CD7953B414" version="3.5">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-12 15:45:52 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B20F870C-7B64-AC3F-E9F3-55CD7953B414</designId>
+</OSDM_Design>

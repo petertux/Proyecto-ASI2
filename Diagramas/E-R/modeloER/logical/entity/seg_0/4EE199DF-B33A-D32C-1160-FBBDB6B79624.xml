@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4EE199DF-B33A-D32C-1160-FBBDB6B79624" name="Recibo">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 20:38:28 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Recibo" id="56C8E356-D1B1-04C5-D820-421A8DF240C1">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 20:39:30 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<use>0</use>
+</Attribute>
+<Attribute name="Fecha_Creacion" id="3B44A619-25FC-56BB-C48F-D5208F83176C">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 20:39:36 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Usuario_Crea" id="C4C8E74E-EA31-0860-437D-5C6FC24952B9">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 20:39:42 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Fecha_Recibo" id="1613EADB-0EEC-AC00-6C16-22D7C9042968">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 20:39:47 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Id_Cotizacion" id="FE561686-FA5B-857E-43AB-CDA3E250344B">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 20:40:34 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Id_Cliente" id="87F4FF0B-52C9-3C86-B043-DEEC0AAD72C0">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 20:40:41 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Monto" id="097AF030-C1F1-805E-7F4D-7E0449EB4D91">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 20:41:03 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Descripcion" id="5EDE1752-47DA-D71E-BDA3-1DB4CDF6275D">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 20:41:12 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Id_Cotizacion1" id="A3DB27FA-9B8C-4943-75F5-8BD8A2BD870E">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 20:45:49 UTC</createdTime>
+<generatorID>3E32ECFB-CF7B-4025-0D75-0E2ADEDBD689</generatorID>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D66D1C11-F4F3-4757-3390-0B0BA146C85E</referedAttribute>
+<use>0</use>
+</Attribute>
+<Attribute name="Id_Cliente1" id="D8361301-B90E-2AF8-3A83-56D07F3DCD8F">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 22:33:42 UTC</createdTime>
+<generatorID>252766DB-447B-0709-24F4-0E12B5013800</generatorID>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E86FFEFB-29B6-95C5-3EB0-CADDD07559AE</referedAttribute>
+<use>0</use>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4177235F-7432-F7F9-40AD-D10B2940D7EB" name="Recibo PK">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 20:43:59 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>56C8E356-D1B1-04C5-D820-421A8DF240C1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

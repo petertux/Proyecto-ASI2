@@ -1,0 +1,212 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4E16A36A-212B-0900-16B1-55A041D5BCDD" name="Orden_Trabajo">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 15:17:12 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Orden" id="DCAAC131-0EC3-93B7-C7C3-47745A709BAC">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 15:18:10 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<use>0</use>
+</Attribute>
+<Attribute name="Id_Tipo_Orden" id="B804C301-347E-4DDC-DD3A-7250597FFD64">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 15:19:05 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Fecha_Orden" id="81AF8B5B-203C-31E3-4119-29A9B528E88F">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 15:19:12 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Tipo_Instalacion" id="E0948663-8318-707B-3F00-A4E36D4B426B">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 15:27:50 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Materiales_Adicionales" id="DCDFDAA2-9F29-09CC-9591-6CC9FAA651F0">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 15:27:57 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Observaciones" id="A7578EFD-042E-33F7-4442-92C662A28BFE">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 15:28:11 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Id_Tipo_Documento" id="70E4DC83-E268-67CA-758B-2AE336E22B12">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 15:28:27 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Id_Cotizacion" id="1DAABD83-4C70-569F-2ABE-BF2E085CACD4">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 15:29:17 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Usuario_Crea" id="EFC534DF-74D6-7FEA-7F77-8F43FDA4AD65">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 15:29:47 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Fecha_Creacion" id="A83C6619-DF7F-0379-23D8-23BA8F16735C">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 15:29:51 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Id_Cliente" id="057CCC26-AE64-4340-A303-75BF9D7C5F19">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 15:38:51 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Id_Tipo_Orden1" id="49D52F6F-F8BC-0072-98AD-3082D93BCEAB">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 15:49:21 UTC</createdTime>
+<generatorID>34EFB5E9-C19C-426B-2D8B-DEA4B915FFAF</generatorID>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>0F8026C1-EF7B-C750-72FB-B5E1D3B74BE7</referedAttribute>
+<use>0</use>
+</Attribute>
+<Attribute name="Id_Cotizacion1" id="791C3D4F-A8AF-1920-1C9C-199894ED423E">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 15:50:14 UTC</createdTime>
+<generatorID>B4FBDE77-3272-D4F7-FE5E-8AC702751609</generatorID>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D66D1C11-F4F3-4757-3390-0B0BA146C85E</referedAttribute>
+<use>0</use>
+</Attribute>
+<Attribute name="Id_Cliente1" id="D271F14F-7F0D-B66A-8035-AABC879C8CAE">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 15:52:40 UTC</createdTime>
+<generatorID>1C0A3E57-7F16-6DC0-84BE-051CF3FE1FC4</generatorID>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E86FFEFB-29B6-95C5-3EB0-CADDD07559AE</referedAttribute>
+<use>0</use>
+</Attribute>
+<Attribute name="Id_Tipo_Documento1" id="954DE2A7-D5F2-458C-5986-6B6599F88829">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 15:53:44 UTC</createdTime>
+<generatorID>18EB1B89-99D1-5693-055D-DFF07D429895</generatorID>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B8ADC381-185B-DFCE-6D05-03FAF187A225</referedAttribute>
+<use>0</use>
+</Attribute>
+<Attribute name="Id_Factura" id="8D1B3D7B-FF11-5864-2E7C-2896D59A072E">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 16:23:54 UTC</createdTime>
+<generatorID>6585197E-FC98-9608-E55A-C429657D61EE</generatorID>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E345F1CE-7119-F220-DCC0-F012F71F5E50</referedAttribute>
+<use>0</use>
+</Attribute>
+<Attribute name="Estado" id="4C468709-955B-A7F7-322C-F2C00CEBB6F2">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 16:38:32 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="27D763C0-EE22-2335-BE95-916AA4A54C46" name="Orden_Trabajo PK">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 15:32:52 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DCAAC131-0EC3-93B7-C7C3-47745A709BAC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

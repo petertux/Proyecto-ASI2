@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="20F38DEE-FA97-D35A-171E-3908F7B19E33" name="Instalacion">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 17:01:22 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Instalacion" id="5E893086-E37A-0C14-0E85-0094B2F30B37">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 17:01:55 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<use>0</use>
+</Attribute>
+<Attribute name="Id_Factura" id="E4E79D73-74BB-165B-C260-9F815DF6E3D2">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 17:02:02 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Id_Responsable" id="ED9CF5F5-F332-A4E8-2E31-5AB75EBA59E8">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 17:02:06 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Estado" id="A5481E35-3E98-84EF-6348-17ED55415FC9">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 17:02:14 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Fecha_Creacion" id="627CA02C-4462-10B9-FE40-1CF680343AF9">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 17:02:23 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Usuario_Crea" id="E004035D-D721-726B-97C2-57EDCB48A4B1">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 17:02:28 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Fecha_Instalacion" id="C5981F60-6B36-B78D-3979-6BD77DD9D814">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 17:02:34 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Id_Factura1" id="8FF1E3C8-2E92-DB81-C5E7-28890778C4B1">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 17:03:57 UTC</createdTime>
+<generatorID>1F80DA99-FBDA-7183-9EA3-24711C7DAAAF</generatorID>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E345F1CE-7119-F220-DCC0-F012F71F5E50</referedAttribute>
+<use>0</use>
+</Attribute>
+<Attribute name="Id_Instalador" id="DCB8DBE2-A902-8607-BA2B-DC44078CE68E">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 17:07:01 UTC</createdTime>
+<generatorID>93550137-EC70-3914-F67C-8E9A94F3318D</generatorID>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8EC1F017-51C3-F7CC-FC79-AC9B18E971A2</referedAttribute>
+<use>0</use>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9563B3D0-7EF9-CCCB-BAD0-EF97EB8C51CA" name="Instalacion PK">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-14 17:06:37 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5E893086-E37A-0C14-0E85-0094B2F30B37</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A0368010-5B39-85F1-32CA-8A35042A8E96" name="Ciudad">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 20:55:36 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Ciudad" id="7463447B-B369-DA9F-45CC-01F6BE570C4A">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 20:55:42 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<use>0</use>
+</Attribute>
+<Attribute name="Descripcion" id="0667CA05-3B55-ECCB-BDBC-CFAE34EF4133">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 21:05:10 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Id_Provincia" id="2DA44110-1FAE-637B-C658-DCCF749FB8E0">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 21:05:17 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Estado" id="C1D9E765-5696-C204-16C0-F46805A3BC96">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 21:05:23 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<use>0</use>
+</Attribute>
+<Attribute name="Id_Provincia1" id="C9B1392A-C9BE-D851-3C04-35BBE5B455EE">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 21:11:46 UTC</createdTime>
+<generatorID>BF23A5B3-B371-CCD7-845D-6AD6849A9502</generatorID>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9F8A591B-0DF6-E75D-9D5C-A02D9EE24F9B</referedAttribute>
+<use>0</use>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A3352BBD-2ED3-74CD-FB7E-AD1AFDE84509" name="Ciudad PK">
+<createdBy>dlnajera</createdBy>
+<createdTime>2014-08-13 21:05:30 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<engineerTo>
+<item key="33D7486C-DBAE-93F7-3D16-F8378574FF9C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C1D9E765-5696-C204-16C0-F46805A3BC96</attributeRef>
+<attributeRef>7463447B-B369-DA9F-45CC-01F6BE570C4A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

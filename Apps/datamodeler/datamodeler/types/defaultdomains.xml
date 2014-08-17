@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="defaultdomains">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
+         <createdBy>dlnajera</createdBy>
+         <createdTime>2014-08-12 15:45:53 UTC</createdTime>
+         <generatorID>Generado por el Usuario</generatorID>
+         <ownerDesignName>Sistema</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT017</logicalDatatype>
+      </Domain>
+   </domains>
+</DomainFile>
